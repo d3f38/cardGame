@@ -1,0 +1,49 @@
+$screen-md: 768px;
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Roboto+Condensed&display=swap');
+
+.Header {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  font-size: 13px;
+  justify-content: center;
+  line-height: 18px;
+  padding: 14px 0;
+  // padding: 14px 20px;
+  // border-bottom: solid 1px rgba(0, 0, 0, 0.07);
+
+  &-Search {
+    vertical-align: middle;
+    border: 2px solid rgba(0, 0, 0, 0.15);
+    box-sizing: border-box;
+    border-radius: 3px;
+    font-size: 13px;
+    line-height: 18px;
+    padding: 5px 12px;
+
+    &::placeholder {
+      color: rgba(0, 0, 0, 0.3);
+    }
+  }
+
+  &-Logo {
+    display: inline-block;
+  }
+
+  &-User {
+    display: inline-block;
+    vertical-align: middle;
+    height: 28px;
+    width: 28px;
+    border-radius: 50%;
+    background-image: url(../../assets/img/user.svg);
+    background-size: 100%;
+    margin-left: 16px;
+  }
+
+  @media (min-width: 768px) {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}

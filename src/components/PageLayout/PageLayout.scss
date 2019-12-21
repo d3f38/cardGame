@@ -1,0 +1,14 @@
+.PageLayout {
+	display: flex;
+	flex-direction: column;
+	font-family: monospace;
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;;
+
+	&-link-to-game {
+		text-decoration: none;
+		color: #000;
+		font-size: 40px;
+		text-align: center;
+		margin-bottom: 30px;
+	}
+}

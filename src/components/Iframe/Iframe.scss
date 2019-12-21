@@ -1,0 +1,18 @@
+.Iframe {
+  position: relative;
+  transform-origin: 0 0; 
+  transform: scale(0.75);
+
+  &-Content {
+      border: 0;
+      width: 150%;
+  }
+
+  &-Button {
+    position: absolute;
+    top: 5px;
+    right: -196px;
+    border: none;
+    font-size: 21px;
+  }
+}

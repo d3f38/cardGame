@@ -1,0 +1,86 @@
+{
+    "env": {
+        "browser": true,
+        "es6": true
+    },
+    "globals": {
+        "Atomics": "readonly",
+        "SharedArrayBuffer": "readonly"
+    },
+    "parserOptions": {
+        "ecmaFeatures": {
+            "jsx": true
+        },
+        "ecmaVersion": 2018,
+        "sourceType": "module"
+    },
+    "plugins": [
+        "react"
+    ],
+    "rules": {
+        "no-var": [
+            1
+        ],
+        "no-unused-vars": [
+            1,
+            {
+              "ignoreSiblings": true,
+              "argsIgnorePattern": "res|next|^err"
+            }
+        ],
+        "prefer-const": [
+            2, 
+            {
+                "destructuring": "all"
+            }
+        ],
+        "no-unused-expressions": [
+            2,
+            {
+              "allowTaggedTemplates": true
+            }
+        ],
+        "quotes": [
+            2,
+            "single",
+            {
+              "avoidEscape": true,
+              "allowTemplateLiterals": true
+            }
+        ],
+        "no-array-constructor": [
+            2
+        ],
+        "array-callback-return": [
+            2
+        ],
+        "eqeqeq": [
+            2
+        ],
+        "no-mixed-operators": [
+            2
+        ],
+        "indent": [2, 4],
+        "space-before-blocks": [
+            2
+        ],
+        "keyword-spacing": [
+            2
+        ],
+        "space-infix-ops": [
+            2
+        ],
+        "newline-per-chained-call": [
+            2
+        ],
+        "no-whitespace-before-property": [
+            2
+        ],
+        "semi": [
+            2
+        ],
+        "id-length": [
+            1
+        ]
+    }
+}
